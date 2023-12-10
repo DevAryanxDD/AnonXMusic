@@ -39,6 +39,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
+SRC_CODE = getenv(
+    "SRC_CODE",
+    "https://t.me/DragonBytz",
+)
+
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OFFICIAL_91CLUB")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CLUB91HUBB")
 
